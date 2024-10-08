@@ -25,8 +25,8 @@ class Ball:
   def update(self):
     self.s_y -= self.dy * self.speed
     self.b_y -= self.dy * self.speed
-    if (self.s_y <= 30): self.s_y = 30
-    if (self.b_y <= 30): self.b_y = 30
+    if (self.s_y <= 60): self.s_y = 60
+    if (self.b_y <= 60): self.b_y = 60
     pass
 
 class Boy:
